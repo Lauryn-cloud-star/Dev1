@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navbar {
+    background-image: linear-gradient( to right rgb(7, 9, 109));
+    color: rgb(215, 216, 217);
+    width:100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    justify-content: space-between;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color: white;
+    border-bottom: 2px solid whitesmoke;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+.card{
+   
+   
+   
+   margin:10px;
+   padding: 10px;
+
+}
+.col-md-4{
+
+  width: 800px;
+  height: 100px;
+}
+.card1{
+  width:1000px;
+  height: 600px;
+  padding: 20px;
+
+}
+.content1{
+  color: white;
+}
+.cards h1{
+  font-size: xx-large;
+  text-align: center;
+}
+
+
+.cards{
+  max-width: 540;
+}
+.cardd-body{
+  text-align: center;
+}
